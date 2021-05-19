@@ -20,8 +20,8 @@ let name1, age, drink;
 
 name1 = prompt("insert name");
 age = prompt("insert age");
-/*
-if (age < 6)
+
+if (age < 6 && age > 0)
 {
     drink = "Milch";
 }
@@ -39,8 +39,8 @@ else
 }
 
 console.log(name1 + " gets " + drink);
-*/
 
+/*
 switch (true) {
     case (age < 6):
         drink = "Milch";
@@ -60,3 +60,4 @@ switch (true) {
         break;
 }
 console.log(name1 + " gets a" + drink);
+*/
